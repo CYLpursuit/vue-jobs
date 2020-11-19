@@ -2,9 +2,14 @@ import { createRouter, createWebHashHistory } from 'vue-router'
 
 const routes = [
   {
-    path: '/requestAnimationFrame',
+    path: '/request-animation-frame',
     name: 'RequestAnimationFrame',
     component: () => import(/* webpackChunkName: "about" */ '../views/requestAnimationFrame.vue')
+  },
+  {
+    path: '/visibility-change',
+    name: 'VisibilityChange',
+    component: () => import(/* webpackChunkName: "about" */ '../views/visibilityChange.vue')
   }
 ]
 
