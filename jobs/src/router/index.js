@@ -10,6 +10,11 @@ const routes = [
     path: '/visibility-change',
     name: 'VisibilityChange',
     component: () => import(/* webpackChunkName: "about" */ '../views/visibilityChange.vue')
+  },
+  {
+    path: '/debounce-throttle',
+    name: 'DebounceThrottle',
+    component: () => import(/* webpackChunkName: "about" */ '../views/debounceThrottle.vue')
   }
 ]
 
